@@ -1,0 +1,292 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	 font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	line-height: 1.4em;
+}
+h1,h2,h3,h4,h5,h6{
+	 font-family: "Poppins", sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/***************************************
+ * <!-- E school / home code  start here-->
+ * 
+ * *******************************************/
+.header{
+	width: 100%;
+	background: #f0fff0;
+	
+}
+.header .logo{
+	border-radius: 20px;
+	width: 95px;
+	height: 90px;
+}
+.main-menu{
+	width: 100%;
+}
+.main-menu .logo{
+	width: 150px;
+}
+.main-menu .bg-light{
+	background: transparent !important;
+}
+.main-menu .navbar-light .navbar-nav .nav-link.active{
+	color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.main-menu .navbar-light .navbar-nav .nav-link{
+	color: #000;
+    font-size: 16px;
+    margin: 0px 0px 0px 25px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover, .main-menu .navbar-light .navbar-nav .nav-link:focus{
+	color: #000;
+	 font-weight: 600;
+}
+.main-menu .btn-success {
+  padding: 8px 25px;
+  border-radius: 35px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0px 0px 0px 32px;
+  background: #21B573;
+  color: #fff;
+  border: 1px solid #21B573;
+}
+
+.main-menu .btn-success:hover, .main-menu .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    order: 1px solid #21B573;
+}
+.banner{
+ 	width: 100%;
+ 	padding: 80px 0px;
+}
+.banner h5{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #fd511a;
+
+
+}
+.banner h1{
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 52px;
+	color: #000;
+	margin: 0px 0px 20px;
+}
+.banner span{
+	color: #21B573;
+}
+.banner p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.banner .btn-success {
+  padding: 15px 30px;
+  border-radius: 35px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px 0px 0px;
+  background: #21B573;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+.banner .btn-success:hover, .banner .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    order: 1px solid #21B573;
+}
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-feature{
+	width: 100%;
+	padding: 40px;
+	text-align: center;
+	background: #f8fffb;
+}
+.inner-feature img{
+	width: 78px;
+	height: 88px;
+	margin: 0px 0px 20px;
+}
+.inner-feature h4{
+  font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #413960;
+	margin: 0px;
+}
+.inner-feature p{
+	font-size: 26px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #585859;
+	margin:0px 0px;
+}
+.inner-feature:hover, .inner-feature:focus{
+	background: #ffffff;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+.courses{
+	width: 100%;
+	padding: 80px 0px;
+}
+.courses h2{
+	 font-size: 32px;
+	font-weight: 600;
+	line-height: 42px;
+	color: #413960;
+	margin: 0px 0px 50px;
+	text-align: center;
+}
+.courses .card{
+	width: 100%;
+	padding: 20px;
+	background: #ffffff;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 18px;
+	border: 0px;
+	margin: 0px 0px 20px;
+
+}
+.courses .card .card-body{
+	padding: 15px 0px;
+}
+.courses .card .card-body h5{
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 32px;
+	color: #413960;
+	margin: 0px;
+}
+.courses .card .card-body p{
+  font-size: 26px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #585859;
+	margin:0px 0px 15px;
+}
+.courses .card .card-body .btn-success{
+  padding: 10px 25px;
+  border-radius: 35px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0px 20px;
+  background: #21B573;
+  color: #fff;
+  border: 1px solid #21B573;
+}
+
+.courses .card .card-body .btn-success:hover, .courses .card .card-body .btn-success:focus{
+    background: transparent;
+    color: #21B573;
+    order: 1px solid #21B573;
+}
+.courses .card .card-body .dese{
+	 font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #585859;
+	margin: 20px 0px 0px;
+}
+.courses .card .card-body .cl{
+	width: 18px;
+	margin: -5px 0px 0px;
+
+}
+.courses .card .card-body .cl2{
+	width: 18px;
+  margin: -5px 0px 0px;
+}
+.courses .text-right{
+	text-align: right;
+}
+.testimonials{
+	width: 100%;
+	padding: 80px 0px ;
+}
+.testimonials h2{
+  font-size: 32px;
+	font-weight: 600;
+	line-height: 42px;
+	color: #413960;
+	margin: 0px 0px 50px;
+	text-align: center;
+}
+.testimonials .img-round{
+	width: 110px;
+	height: 110px;
+	border-radius: 100%;
+}
+.testimonials p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #585859;
+	margin:15px 0px 0px;
+}
+.footer{
+	width: 100%;
+	padding: 60px 0px 30px;
+	background: #282531;
+}
+.footer-widget{
+	width: 100%;
+	padding: 0px 0px 80px;
+}
+.footer-widget p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #fff;
+}
+.footer-widget h6{
+  font-size: 16px;
+	font-weight: 600;
+	line-height: 26px;
+	color: #fff;
+	margin: 0px 0px 5px;
+
+}
+.footer-widget ul{
+	padding: 0px;
+}
+.footer-widget ul{
+	list-style: none;
+}
+.footer-widget ul a{
+	display: block;
+	 font-size: 16px;
+	font-weight: 600;
+	line-height: 26px;
+	color: #fff;
+	margin: 0px 0px 5px;
+}
+.copyright{
+	width: 100%;
+	text-align: center;
+}
+.copyright p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #cdcdcd;
+	margin: 0px;
+}
